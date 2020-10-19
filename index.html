@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+
+    <title>Project 56</title>
+</head>
+
+<body onload="setDate()">
+    <H1> My world of Phtography </H1>
+    <h4 id="currentDate" ></h4>
+    <div class="image-section">
+
+        <div class="section-style">
+            <img src="data:image/jpeg;base64,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" alt="" />
+          <br>
+          <br> 
+            <q>To forget how to dig the earth and to tend the soil is to forget ourselves.</q>-Mahatma Gandhi
+        </div>
+
+        <div class="section-style">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSoJfQPFOJRN9_cxYQzLcpvi9_PHivnCUBscA&usqp=CAU" alt="" />
+            <br>
+            <br>
+            <q>Adopt the pace of nature. Her secret is patience.</q>-Ralph Waldo Emerson
+        </div>
+    </div>
+
+
+    <div class="image-section">
+
+        <div class="section-style">
+            <img src="https://lh3.googleusercontent.com/proxy/IHyP2QgGoiN2prs1ZNpw4isrJbKmA7QOrraQRiGaNXiDf8xpz9xFaYeoMXOZy3Nnhgpsc9xsdYdxekIt7SJ37eF4on8JXBUGAS22tFydKTbsbZWOhqhoGMSnSv4yqZ0BcY9xXT4K4EmnOCA7EdCrXQ" alt="" />
+           <br>
+          <br>
+            <q>If you truly love nature, you will find beauty everywhere.</q> —Laura Ingalls Wilder
+        </div>
+
+
+        <div class="section-style">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDTNEPsvfyUudyqVMOwiRDCp9kaJ2cqrwIOQ&usqp=CAU" alt="" />
+            <br>
+          <br>
+            <q>The earth is what we all have in common.</q> —Wendell Berry
+        </div>
+    </div>
+</body>
+</html>
+
